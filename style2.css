@@ -5,6 +5,19 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    background-image: url(https://img.freepik.com/vetores-premium/banner-azul-de-apostas-esportivas-com-moedas-de-ouro-de-tacas-de-campeao-de-smartphone-e-bolas-esportivas-no-podio-de-vencedores-com-anel-de-neon-azul-em-cena-azul_7993-8056.jpg?w=826);
+}
+
+.formulario{
+    border-radius: 40px;
+    color: #ffffff;
+    padding: 40px;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #131212;
+}
+
 header{
     margin-bottom: 10px;
     padding: 20px;
