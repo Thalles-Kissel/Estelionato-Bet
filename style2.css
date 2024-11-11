@@ -6,6 +6,8 @@
 }
 
 body{
+    background-size: cover;
+    background-repeat: no-repeat;
     background-image: url(https://img.freepik.com/vetores-premium/banner-azul-de-apostas-esportivas-com-moedas-de-ouro-de-tacas-de-campeao-de-smartphone-e-bolas-esportivas-no-podio-de-vencedores-com-anel-de-neon-azul-em-cena-azul_7993-8056.jpg?w=826);
 }
 
