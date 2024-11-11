@@ -16,6 +16,11 @@ body{
     margin-left: 25%;
     margin-right: 25%;
     background-color: #131212;
+    border: 3px solid #0000ff;
+    animation: 4s mudarborda infinite;
+    animation-timing-function: ease-in-out;
+    /* Muda a cor gradualmente */
+    animation-direction: alternate;
 }
 
 header{
@@ -34,4 +39,22 @@ div{
 
 input{
     border-radius: 10px;
+}
+
+@keyframes mudarborda{
+    25%{
+        border: 4px solid #ff000d;
+    }
+
+    50%{
+        border: 4px solid #0000ff;
+    }
+
+    75%{
+        border: 4px solid #ffe600;
+    }
+
+    100%{
+        border: 4px solid #7bff00;
+    }
 }
